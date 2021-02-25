@@ -27,6 +27,7 @@
     font-weight: 200;	
     font-size: 2em;
         font-family: 'Lato', sans-serif;
+        cursor: pointer;
   }
   
   .ac_link span {
@@ -115,8 +116,8 @@ right: 0;
     display:block;
     z-index:2;
     pointer-events: none;
-    animation: fadeOut 0.25s ease-out;
-    animation-delay: 3.25s;
+    animation: fadeOut 1s ease-in;
+    animation-delay: 3s;
     animation-fill-mode: forwards;
     opacity: 1;
     position: fixed;
@@ -134,14 +135,14 @@ right: 0;
 
 #bgvid2 {
     position: fixed;
-    top: 50%;
+    bottom: 0%;
     left: 50%;
     min-width: 100%;
     min-height: 100%;
     width: auto;
     height: auto;
     z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(0);
     background-size: cover;
 
 }
